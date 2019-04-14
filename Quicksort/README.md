@@ -1,8 +1,8 @@
-#Quicksort
+# Quicksort
 
 Quicksort (sometimes called partition-exchange sort) is an O(n log n) efficient sorting algorithm, serving as a systematic method for placing the elements of a random access file or an array in order.
 
-##How does it work?
+## How does it work?
 
 Quicksort works by picking an element from the array and denoting it as the “pivot.” All other elements in the array are split into two categories — they are either less than or greater than this pivot element.
 
