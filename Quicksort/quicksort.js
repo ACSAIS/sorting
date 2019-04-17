@@ -4,7 +4,6 @@ we should offer an optional parameter for the comparator. Sorting strings
 or numbers is built in to JavaScript, but sorting objects isn’t. We may want
 to sort a collection of user objects ({ name: 'Luke', age: 22 }) by age.
  */
-
 const defaultComparator = (a, b) => {
     if (a < b) {
         return -1;
@@ -66,5 +65,5 @@ const quickSort = (unsortedArray, comparator = defaultComparator) => {
     recursiveSort(0, unsortedArray.length - 1);
     return sortedArray;
 };
-
+console.log(quickSort([-6,-71,-24,-1,-56,-34]));
 module.exports = quickSort;
