@@ -4,15 +4,7 @@ we should offer an optional parameter for the comparator. Sorting strings
 or numbers is built in to JavaScript, but sorting objects isn’t. We may want
 to sort a collection of user objects ({ name: 'Luke', age: 22 }) by age.
  */
-const defaultComparator = (a, b) => {
-    if (a < b) {
-        return -1;
-    }
-    if (a > b) {
-        return 1;
-    }
-    return 0;
-};
+const defaultComparator = require('../defaultComparator');
 
 const quickSort = (unsortedArray, comparator = defaultComparator) => {
 
