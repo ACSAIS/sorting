@@ -1,0 +1,27 @@
+[
+  {
+    "description": "it should sort simple array",
+    "unsortedArray": [2,17,13,9,1,17],
+    "sortedArray": [1,2,9,13,17,17]
+  },
+  {
+    "description": "it should sort negative numbers",
+    "unsortedArray": [-6,-71,-24,-1,-56,-34],
+    "sortedArray": [-71,-56,-34,-24,-6,-1]
+  },
+  {
+    "description": "it should sort mixed array (negative and positive numbers)",
+    "unsortedArray": [3,9,0,-7,37,-46,8],
+    "sortedArray": [-46,-7,0,3,8,9,37]
+  },
+  {
+    "description": "it should sort mixed array with max value at the end",
+    "unsortedArray": [2,-5,64,196,-251,-53,1000],
+    "sortedArray": [-251,-53,-5,2,64,196,1000]
+  },
+  {
+    "description": "it should sort mixed array with min value at the end",
+    "unsortedArray": [43,6,-758,-223,1,64,-1000],
+    "sortedArray": [-1000,-758,-223,1,6,43,64]
+  }
+]
