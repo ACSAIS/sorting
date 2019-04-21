@@ -1,4 +1,4 @@
-const mergesort = require('../mergesort/mergesort.js');
+const mergesort = require('../Merge_sort/mergesort.js');
 const fs = require('fs');
 const data = fs.readFileSync('./mocks.json');
 const tests = JSON.parse(data);
